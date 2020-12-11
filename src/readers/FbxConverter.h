@@ -134,7 +134,7 @@ namespace readers {
 
 			if (scene) {
 				FbxAxisSystem axis(defaultUpAxis, defaultFrontAxis, defaultCoordSystem);
-				axis.ConvertScene(scene);
+				//axis.ConvertScene(scene);
 			}
 			if (scene)
 				checkNodes();
